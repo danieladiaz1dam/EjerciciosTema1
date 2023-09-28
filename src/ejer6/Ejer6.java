@@ -31,13 +31,23 @@ public class Ejer6 {
 		// Guardamos el user input en time
 		time = sc.nextInt();
 		
+	/* 
+		// Antes lo tenia asi
 		// Calcular el numero de horas
 		hours = time / 3600;
 		// Calcular la cantidad de minutos
 		minutes = (time / 60) - hours*60;
 		// Calcular la cantidad de segundos
 		seconds = time - minutes*60 - hours*3600;
-
+	*/
+		
+		// Calcular el numero de horas
+		hours = time / 3600;
+		// Calcular la cantidad de minutos
+		minutes = (time % 3600) / 60;
+		// Calcular la cantidad de segundos
+		seconds = (time % 3600) % 60;
+		
 		System.out.print(time + " segundos es igual a " + hours + "h " + minutes + "m " + seconds + "s.");
 
 		// Cerrar el scanner
