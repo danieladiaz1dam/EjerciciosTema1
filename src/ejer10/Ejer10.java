@@ -22,7 +22,7 @@ public class Ejer10 {
 	public static void main(String[] args) {
 		// Varaible para guardar los metros
 		double metros;		
-		// Variable del scanner para guardar el input por consola
+		// Variable del scanner para el user input
 		Scanner sc = new Scanner(System.in);
 		// Cambiar el locale del scanner
 		sc.useLocale(Locale.US);

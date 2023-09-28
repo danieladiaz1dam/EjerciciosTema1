@@ -15,7 +15,7 @@ public class Ejer9 {
 		float num1;
 		// Variable para guardar el segundo numero
 		float num2;
-		// Variable del scanner para guardar el input por consola
+		// Variable del scanner para el user input
 		Scanner sc = new Scanner(System.in);
 		// Cambiar el locale del scanner
 		sc.useLocale(Locale.US);

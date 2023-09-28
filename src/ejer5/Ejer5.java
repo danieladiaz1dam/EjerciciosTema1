@@ -21,9 +21,9 @@ public class Ejer5 {
 		float x;
 		// Variable para guardar el resultado
 		float y;
-		// Variable del scanner para leer dator
+		// Variable del scanner para el user input
 		Scanner sc = new Scanner(System.in);
-		// Cambiamos el locale del scanner a US
+		// Cambiar el locale al scanner
 		sc.useLocale(Locale.US);
 
 		// Mostrar al usuario el polinomio
@@ -56,7 +56,7 @@ public class Ejer5 {
 		// Imprimir el resultado
 		System.out.println("y = " + a + " * " + x + "^2 + " + b + " * " + x + " + " + c + " = " + y);
 
-		// Cerramos el scanner
+		// Cerrar el scanner
 		sc.close();
 	}
 }

@@ -16,7 +16,7 @@ public class Ejer4 {
 		float base;
 		// Variable del scanner para leer dator
 		Scanner sc = new Scanner(System.in);
-		// Cambiamos el locale del scanner a US
+		// Cambiar el locale al scanner
 		sc.useLocale(Locale.US);
 		
 		// Pedimos la altura al usuario
@@ -32,7 +32,7 @@ public class Ejer4 {
 		// Imprimimos el area del triangulo
 		System.out.println("El area del triangulo es " + (base*height/2));
 		
-		// Cerramos el scanner
+		// Cerrar el scanner
 		sc.close();
 	}
 }

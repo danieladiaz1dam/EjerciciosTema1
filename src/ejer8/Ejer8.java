@@ -20,6 +20,7 @@ public class Ejer8 {
 	public static void main(String[] args) {
 		// Precio entradas infantiles
 		final float PRECIO_ENTRDAS_INFANTILES = 15.5F;
+		// Precio entradas de adultos
 		final float PRECIO_ENTRADAS_ADULTOS = 20F;
 		// Numero de entradas infantiles
 		int numEntradasInfantiles;
@@ -27,9 +28,9 @@ public class Ejer8 {
 		int numEntradasAdultos;
 		// Total a pagar
 		float total;
-		// Variable del scanner para leer dator
+		// Variable del scanner para el user input
 		Scanner sc = new Scanner(System.in);
-		// Cambiamos el locale del scanner a US
+		// Cambiar el locale al scanner
 		sc.useLocale(Locale.US);
 
 		// Preguntar al usuario cuantas entradas infantiles quiere
@@ -51,7 +52,7 @@ public class Ejer8 {
 		// Imprimimos el resultado
 		System.out.println("El precio total a pagar es: " + total + " euros");
 
-		// Cerramos el scanner
+		// Cerrar el scanner
 		sc.close();
 	}
 }

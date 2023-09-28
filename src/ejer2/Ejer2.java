@@ -1,7 +1,7 @@
 package ejer2;
 
-import java.util.Locale;
 import java.util.Scanner;
+import java.util.Locale;
 
 /*
  * Escribe un programa que tome como entrada un número entero e indique qué cantidad hay que
@@ -38,7 +38,7 @@ public class Ejer2 {
 		// Imprimimos la diferencia
 		System.out.println("La diferencia hasta el siguiente multiplo de 7 es: " + difference);
 
-		// Cerramos el scanner
+		// Cerrar el scanner
 		sc.close();
 	}
 }

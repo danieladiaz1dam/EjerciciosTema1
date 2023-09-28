@@ -21,9 +21,9 @@ public class Ejer6 {
 		int seconds;
 		// Variable para guardar el tiempo introducido por el user
 		int time;
-		// Variable del scanner para leer dator
+		// Variable del scanner para el user input
 		Scanner sc = new Scanner(System.in);
-		// Cambiamos el locale del scanner a US
+		// Cambiar el locale al scanner
 		sc.useLocale(Locale.US);
 
 		// Preguntar al usuario por una cantidad de segundos
@@ -40,7 +40,7 @@ public class Ejer6 {
 
 		System.out.print(time + " segundos es igual a " + hours + "h " + minutes + "m " + seconds + "s.");
 
-		// Close scanner
+		// Cerrar el scanner
 		sc.close();
 	}
 }

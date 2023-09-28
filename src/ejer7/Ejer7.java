@@ -20,9 +20,9 @@ public class Ejer7 {
 		float cm;
 		// Varaiable para guardar los metros
 		float m;
-		// Variable del scanner para leer dator
+		// Variable del scanner para el user input
 		Scanner sc = new Scanner(System.in);
-		// Cambiamos el locale del scanner a US
+		// Cambiar el locale al scanner
 		sc.useLocale(Locale.US);
 
 		// Pedir al usuario los milimetros
@@ -43,7 +43,7 @@ public class Ejer7 {
 		// calculamos los centimetros e imprimimos
 		System.out.println("El total son " +  (m * 100 + cm + mm / 10) + "cms.");
 
-		// Cerramos el scanner
+		// Cerrar el scanner
 		sc.close();
 	}
 }

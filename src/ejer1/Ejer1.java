@@ -1,7 +1,7 @@
 package ejer1;
 
-import java.util.Locale;
 import java.util.Scanner;
+import java.util.Locale;
 
 /*
  * Realizar un programa que pida como entrada un número con decimales 
@@ -39,7 +39,7 @@ public class Ejer1 {
 		// entera + 1, segun nuestra variable truncar
 		System.out.println("El numero redondeado es: " + (truncar ? parteEntera : parteEntera + 1));
 
-		// Cerramos el scanner
+		// Cerrar el scanner
 		sc.close();
 	}
 }

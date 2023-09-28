@@ -1,7 +1,7 @@
 package ejer3;
 
-import java.util.Locale;
 import java.util.Scanner;
+import java.util.Locale;
 
 /*
  * Modifica el ejercicio anterior para que, indicando dos números,
@@ -44,7 +44,7 @@ public class Ejer3 {
 		// Imprimimos la diferencia
 		System.out.println("La diferencia hasta el siguiente multiplo de " + num2 + " es: " + difference);
 
-		// Cerramos el scanner
+		// Cerrar el scanner
 		sc.close();
 	}
 }
